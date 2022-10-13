@@ -4,5 +4,5 @@ Welcome to the DAOS Chess Hub!
 
 ## Quick Links
 
-Club Details and Club Rules
-Tournaments
+[Club Details and Club Rules](/daoschess/details) Find out where it is hosted and read some ground rules
+Chess Tournaments
