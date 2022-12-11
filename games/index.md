@@ -8,13 +8,22 @@ I normally code with blocks, python and Javascript, although I sometimes use Sca
 
 ## Play my games
 
+[Mathle](/games/mathle)
+
 [Word Mastermind](/games/wordmastermind)
+
 [Unfiltered](/games/unfiltered)
+
 [The Spaceship](/games/thespaceship)
+
 [Retro Minigames](/games/retrominigames)
+
 [Pac Man](/games/pacman)
+
 [MS Pac Man](/games/mspacman)
+
 [Capital Cities](/games/capitalcities)
+
 [Ice And Lava](/games/iceandlava)
 
 Older versions of my games can be found on [itch.io](tiltedangle.itch.io)
