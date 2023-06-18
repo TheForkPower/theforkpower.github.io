@@ -26,4 +26,6 @@ I normally code with blocks, python and Javascript, although I sometimes use Sca
 
 [Ice And Lava](/games/iceandlava)
 
+[Minimal Typer](/games/minimalisttyper)
+
 Older versions of my games can be found on [itch.io](tiltedangle.itch.io)
