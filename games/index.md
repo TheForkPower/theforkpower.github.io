@@ -26,9 +26,11 @@ I normally code with blocks, python and Javascript, although I sometimes use Sca
 
 [Ice And Lava](/games/iceandlava)
 
-**New** [Minimal Typer](/games/minimalisttyper)
+**New**  [Cyberworld](/games/cyberworld.html)
 
-**New** [Extreme Typer](/games/extremetyper)
+[Minimal Typer](/games/minimalisttyper)
+
+[Extreme Typer](/games/extremetyper)
           n.b: Extreme typer is a harder version of Minimal typer with more words
 
 Older versions of my games can be found on [itch.io](tiltedangle.itch.io)
