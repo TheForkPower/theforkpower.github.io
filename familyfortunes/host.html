@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Buzzer Page</title>
+  <title>Family Fortunes - host panel</title>
   <style>
     .buzzer {
       width: 500px;
@@ -19,15 +19,42 @@
   </style>
 </head>
 <body>
-  <div class="buzzer" onclick="playBuzzer()"> Wrong!</div>
+  <div class="buzzer" onclick="playBuzzer()"> Wrong button</div>
+
+  <div>
+    <button onclick="startTimer('timer45', 45)">Start 45s Timer</button>
+    <span id="timer45"></span>
+  </div>
+
+  <div>
+    <button onclick="startTimer('timer60', 60)">Start 1m Timer</button>
+    <span id="timer60"></span>
+  </div>
 
   <script>
     function playBuzzer() {
-      // You can adjust the buzzer sound here
       const buzzerSound = new Audio('family-fortunes-wrong-buzzer.mp3');
       buzzerSound.play();
     }
+
+    function startTimer(timerId, duration) {
+      let timer = duration;
+      let minutes, seconds;
+
+      setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        document.getElementById(timerId).textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+          timer = duration;
+        }
+      }, 1000);
+    }
   </script>
 </body>
-</html>
 </html>
